@@ -65,4 +65,4 @@ gulp.task('serve', function () {
 
 gulp.task('default', ['stylus', 'copy', 'html', 'js', 'serve', 'watch']);
 
-gulp.task('build', ['stylus', 'copy', 'html', 'libs', 'js']);
+gulp.task('build', ['stylus', 'copy', 'html', 'js']);
